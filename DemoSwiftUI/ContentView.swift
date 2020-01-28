@@ -17,6 +17,7 @@ struct ContentView: View {
             List(tutors) { tutor in
                 TutorCell(tutor: tutor)
             }
+                
             .navigationBarTitle("Tutors")
         }
         
