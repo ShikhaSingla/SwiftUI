@@ -15,6 +15,7 @@
 		818DC62023DAE3F800A3F4BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 818DC61E23DAE3F800A3F4BA /* LaunchScreen.storyboard */; };
 		818DC62B23DAE3F800A3F4BA /* DemoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818DC62A23DAE3F800A3F4BA /* DemoSwiftUITests.swift */; };
 		818DC63623DAE3F900A3F4BA /* DemoSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818DC63523DAE3F900A3F4BA /* DemoSwiftUIUITests.swift */; };
+		81EB0CDC23E06FC9004DC798 /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB0CDB23E06FC9004DC798 /* Tutor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		818DC63123DAE3F900A3F4BA /* DemoSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		818DC63523DAE3F900A3F4BA /* DemoSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSwiftUIUITests.swift; sourceTree = "<group>"; };
 		818DC63723DAE3F900A3F4BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81EB0CDB23E06FC9004DC798 /* Tutor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				818DC61323DAE3F700A3F4BA /* AppDelegate.swift */,
 				818DC61523DAE3F700A3F4BA /* SceneDelegate.swift */,
 				818DC61723DAE3F700A3F4BA /* ContentView.swift */,
+				81EB0CDB23E06FC9004DC798 /* Tutor.swift */,
 				818DC61923DAE3F800A3F4BA /* Assets.xcassets */,
 				818DC61E23DAE3F800A3F4BA /* LaunchScreen.storyboard */,
 				818DC62123DAE3F800A3F4BA /* Info.plist */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81EB0CDC23E06FC9004DC798 /* Tutor.swift in Sources */,
 				818DC61423DAE3F700A3F4BA /* AppDelegate.swift in Sources */,
 				818DC61623DAE3F700A3F4BA /* SceneDelegate.swift in Sources */,
 				818DC61823DAE3F700A3F4BA /* ContentView.swift in Sources */,
