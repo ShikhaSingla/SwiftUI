@@ -36,7 +36,7 @@ struct TutorCell: View {
     let tutor: Tutor
     
     var body: some View {
-        NavigationLink(destination: Text(tutor.name)) {
+        NavigationLink(destination: TutorDetail(tutorDetail: tutor)) {
             Image(tutor.imageName)
                 .cornerRadius(40.0)
             VStack(alignment: .leading) {
@@ -46,5 +46,27 @@ struct TutorCell: View {
                     .foregroundColor(.gray)
             }
         }
+    }
+}
+
+struct TutorDetail: View {
+    
+    let tutorDetail: Tutor
+    
+    var body: some View {
+        VStack {
+            
+            Image(tutorDetail.imageName)
+                .cornerRadius(40.0)
+                .frame(width: 120, height: 120, alignment: .center)
+            Text(tutorDetail.headline)
+            .font(.subheadline)
+            .foregroundColor(.gray)
+            Text(tutorDetail.bio)
+                .padding()
+            Spacer()
+        }
+        .navigationBarTitle(Text(tutorDetail.name), displayMode: .inline)
+        
     }
 }
